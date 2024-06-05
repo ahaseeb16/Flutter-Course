@@ -10,6 +10,10 @@ void main() {
   // print("New List $list1");
   // print(list1);
   // list1[2] = "New Vlaue AT Middle";
-  list1.insert(1, "New Value for index 1");
+  // list1.insert(1, "New Value for index 1");
+  // print(list1);
+  // // list1.remove("abc");
+  // list1.removeAt(1);
+  list1.addAll([5, 6]);
   print(list1);
 }
